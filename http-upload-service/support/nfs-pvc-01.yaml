@@ -4,7 +4,7 @@ metadata:
   name: nfs-pvc-01
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   resources:
     requests:
       storage: 5Gi
